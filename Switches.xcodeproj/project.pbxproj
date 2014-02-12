@@ -202,6 +202,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Visnu;
 				TargetAttributes = {
+					9BCA144318AAFC5300E95CF7 = {
+						DevelopmentTeam = 2GR4447TCG;
+					};
 					9BCA146718AAFC5300E95CF7 = {
 						TestTargetID = 9BCA144318AAFC5300E95CF7;
 					};
@@ -392,6 +395,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Switches/Switches-Prefix.pch";
 				INFOPLIST_FILE = "Switches/Switches-Info.plist";
@@ -405,6 +409,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Switches/Switches-Prefix.pch";
 				INFOPLIST_FILE = "Switches/Switches-Info.plist";
