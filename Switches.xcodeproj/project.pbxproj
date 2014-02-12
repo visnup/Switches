@@ -479,6 +479,7 @@
 				9BCA147B18AAFC5300E95CF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BCA147C18AAFC5300E95CF7 /* Build configuration list for PBXNativeTarget "SwitchesTests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +488,7 @@
 				9BCA147E18AAFC5300E95CF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
