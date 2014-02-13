@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85B3188518AC7666009B0563 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 85B3188418AC7666009B0563 /* Settings.bundle */; };
 		9BCA144818AAFC5300E95CF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCA144718AAFC5300E95CF7 /* Foundation.framework */; };
 		9BCA144A18AAFC5300E95CF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCA144918AAFC5300E95CF7 /* CoreGraphics.framework */; };
 		9BCA144C18AAFC5300E95CF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCA144B18AAFC5300E95CF7 /* UIKit.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		85B3188418AC7666009B0563 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		9BCA144418AAFC5300E95CF7 /* Switches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Switches.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BCA144718AAFC5300E95CF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9BCA144918AAFC5300E95CF7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -120,6 +122,7 @@
 				9BCA145C18AAFC5300E95CF7 /* Main_iPad.storyboard */,
 				9BCA145F18AAFC5300E95CF7 /* ViewController.h */,
 				9BCA146018AAFC5300E95CF7 /* ViewController.m */,
+				85B3188418AC7666009B0563 /* Settings.bundle */,
 				9BCA146218AAFC5300E95CF7 /* Images.xcassets */,
 				9BCA144E18AAFC5300E95CF7 /* Supporting Files */,
 			);
@@ -236,6 +239,7 @@
 			files = (
 				9BCA145E18AAFC5300E95CF7 /* Main_iPad.storyboard in Resources */,
 				9BCA146318AAFC5300E95CF7 /* Images.xcassets in Resources */,
+				85B3188518AC7666009B0563 /* Settings.bundle in Resources */,
 				9BCA145B18AAFC5300E95CF7 /* Main_iPhone.storyboard in Resources */,
 				9BCA145218AAFC5300E95CF7 /* InfoPlist.strings in Resources */,
 			);

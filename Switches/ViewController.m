@@ -31,6 +31,10 @@
   [self.view addGestureRecognizer:self.rightScreenEdgePanGestureRecognizer];
 
   [self becomeFirstResponder];
+
+  NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
+  [center addObserver:self selector:@selector(defaultsDidChange) name:NSUserDefaultsDidChangeNotification object:nil];
+  [self defaultsDidChange];
 }
 
 - (BOOL)canBecomeFirstResponder
@@ -52,6 +56,17 @@
     for (UIView *view in self.view.subviews)
       if ([view isKindOfClass:[UISwitch class]])
         [(UISwitch *)view setOn:arc4random_uniform(2) animated:YES];
+}
+
+- (void)defaultsDidChange
+{
+  BOOL rainbow = [[NSUserDefaults standardUserDefaults] boolForKey:@"rainbow"];
+  [UIView animateWithDuration:0.2 animations:^{
+    for (UIView *view in self.view.subviews)
+      if ([view isKindOfClass:[UISwitch class]])
+        [(UISwitch *)view setOnTintColor:rainbow ? [UIColor colorWithHue:arc4random_uniform(360)/360.0 saturation:0.65 brightness:0.84 alpha:1] : nil];
+
+  }];
 }
 
 @end
