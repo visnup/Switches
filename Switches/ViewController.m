@@ -46,7 +46,7 @@
         [(UISwitch *)view setOn:(gestureRecognizer == self.leftScreenEdgePanGestureRecognizer) animated:YES];
 }
 
-- (void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event
+- (void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event
 {
   if (motion == UIEventSubtypeMotionShake)
     for (UIView *view in self.view.subviews)
