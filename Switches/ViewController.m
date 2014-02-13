@@ -40,7 +40,7 @@
 
 - (IBAction)screenEdgePan:(UIScreenEdgePanGestureRecognizer *)gestureRecognizer
 {
-  if (gestureRecognizer.state == UIGestureRecognizerStateRecognized)
+  if (gestureRecognizer.state == UIGestureRecognizerStateBegan)
     for (UIView *view in self.view.subviews)
       if ([view isKindOfClass:[UISwitch class]])
         [(UISwitch *)view setOn:(gestureRecognizer == self.leftScreenEdgePanGestureRecognizer) animated:YES];
