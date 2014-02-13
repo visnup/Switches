@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		858CEAC318AD6A6F00219045 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 858CEAC218AD6A6F00219045 /* MultipeerConnectivity.framework */; };
 		85B3188518AC7666009B0563 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 85B3188418AC7666009B0563 /* Settings.bundle */; };
 		9BCA144818AAFC5300E95CF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCA144718AAFC5300E95CF7 /* Foundation.framework */; };
 		9BCA144A18AAFC5300E95CF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCA144918AAFC5300E95CF7 /* CoreGraphics.framework */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		858CEAC218AD6A6F00219045 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
 		85B3188418AC7666009B0563 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		9BCA144418AAFC5300E95CF7 /* Switches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Switches.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BCA144718AAFC5300E95CF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				858CEAC318AD6A6F00219045 /* MultipeerConnectivity.framework in Frameworks */,
 				9BCA144A18AAFC5300E95CF7 /* CoreGraphics.framework in Frameworks */,
 				9BCA144C18AAFC5300E95CF7 /* UIKit.framework in Frameworks */,
 				9BCA144818AAFC5300E95CF7 /* Foundation.framework in Frameworks */,
@@ -105,6 +108,7 @@
 		9BCA144618AAFC5300E95CF7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				858CEAC218AD6A6F00219045 /* MultipeerConnectivity.framework */,
 				9BCA144718AAFC5300E95CF7 /* Foundation.framework */,
 				9BCA144918AAFC5300E95CF7 /* CoreGraphics.framework */,
 				9BCA144B18AAFC5300E95CF7 /* UIKit.framework */,
@@ -119,9 +123,9 @@
 				9BCA145618AAFC5300E95CF7 /* AppDelegate.h */,
 				9BCA145718AAFC5300E95CF7 /* AppDelegate.m */,
 				9BCA145918AAFC5300E95CF7 /* Main_iPhone.storyboard */,
-				9BCA145C18AAFC5300E95CF7 /* Main_iPad.storyboard */,
 				9BCA145F18AAFC5300E95CF7 /* ViewController.h */,
 				9BCA146018AAFC5300E95CF7 /* ViewController.m */,
+				9BCA145C18AAFC5300E95CF7 /* Main_iPad.storyboard */,
 				85B3188418AC7666009B0563 /* Settings.bundle */,
 				9BCA146218AAFC5300E95CF7 /* Images.xcassets */,
 				9BCA144E18AAFC5300E95CF7 /* Supporting Files */,
@@ -337,7 +341,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -355,6 +359,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "0D55BAA4-A5C2-451D-9B0D-2132A847E269";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -377,7 +382,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -388,6 +393,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "0D55BAA4-A5C2-451D-9B0D-2132A847E269";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -404,6 +410,8 @@
 				GCC_PREFIX_HEADER = "Switches/Switches-Prefix.pch";
 				INFOPLIST_FILE = "Switches/Switches-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "89174710-0F77-4916-A9F5-5CAD80AAD1E2";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -418,6 +426,8 @@
 				GCC_PREFIX_HEADER = "Switches/Switches-Prefix.pch";
 				INFOPLIST_FILE = "Switches/Switches-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "89174710-0F77-4916-A9F5-5CAD80AAD1E2";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
