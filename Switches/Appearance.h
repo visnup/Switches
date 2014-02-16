@@ -10,4 +10,8 @@
 
 @interface Appearance : NSObject
 
++ (UIFont *)sansSerif;
++ (UIFont *)sansSerif:(CGFloat)size;
++ (void)apply;
+
 @end

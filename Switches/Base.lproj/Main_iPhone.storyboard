@@ -19,7 +19,7 @@
             </objects>
             <point key="canvasLocation" x="-244" y="104"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - Switches!-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController storyboardIdentifier="board" id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
@@ -275,7 +275,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ud1-2V-w2o">
+                    <navigationItem key="navigationItem" title="Switches!" id="ud1-2V-w2o">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="DJx-6h-OSn">
                             <connections>
                                 <segue destination="8bD-ho-Fkf" kind="modal" identifier="presentBrowser" id="4BK-Vw-jJq"/>
